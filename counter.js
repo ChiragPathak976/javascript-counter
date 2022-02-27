@@ -11,7 +11,8 @@ decButton.addEventListener('click', () => {
 
 incButton.addEventListener('click', () => {
     num++;
-
+    spanNumber.innerText = num;
+})
 zeroButton.addEventListener('click', () => {
     num = 0;
     spanNumber.innerText = num;
